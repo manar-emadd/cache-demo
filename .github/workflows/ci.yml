@@ -1,6 +1,8 @@
 name: install and test
-on: push
-
+on:
+   push:
+   workflow_dispatch:
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
