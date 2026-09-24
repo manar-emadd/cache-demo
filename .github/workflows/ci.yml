@@ -1,6 +1,6 @@
 name: install and test
 on:
-   push:
+  
    workflow_dispatch:
  
 jobs:
